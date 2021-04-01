@@ -39,6 +39,7 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-oauth2-client')
     compile('org.springframework.session:spring-session-jdbc')
     compile('org.springframework.security:spring-security-test')
+    compile('org.mariadb.jdbc:mariadb-java-client')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 //    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
 //    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
